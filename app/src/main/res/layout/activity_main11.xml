@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity11">
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="491dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26"
+        app:srcCompat="@drawable/i" />
+
+
+    -<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_height="146dp"
+    android:layout_width="431dp"
+    android:id="@+id/constraintLayout"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:background="#2C3043">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView12"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="20sp"
+        android:textColor="#FBFBFB"
+        android:text="Drive timer"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="36dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="459dp"
+        android:layout_height="213dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:srcCompat="@drawable/bg" />
+
+
+    -<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_height="429dp"
+    android:layout_width="470dp"
+    android:id="@+id/constraintLayout"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:background="#2C3043"
+    android:layout_marginTop="312dp">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="316dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="304dp"
+        android:backgroundTint="#C840E9"
+        android:text="Stop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    -<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_height="228dp"
+    android:layout_width="254dp"
+    tools:layout_editor_absoluteY="197dp"
+    tools:layout_editor_absoluteX="78dp"
+    android:background="#424242">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="52dp"
+        android:text="Thank you!"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="184dp"
+        android:text="Ok"
+        android:textColor="#80CBC4"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
