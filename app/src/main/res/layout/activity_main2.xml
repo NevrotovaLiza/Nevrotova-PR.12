@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="451dp"
+        android:layout_height="800dp"
+        android:background="@drawable/i2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_5" />
+
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="312dp"
+        android:background="#F1EEEE"
+        android:id="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Ivanov.I"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="56dp"/>
+
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="312dp"
+        android:background="#F1EEEE"
+        android:id="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="*******"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="408dp"
+        android:layout_marginStart="56dp"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:srcCompat="@drawable/ktqzj8_tif_1_"
+        android:id="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="358dp"
+        android:layout_marginStart="24dp"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:srcCompat="@drawable/amkpvd_tif_1_"
+        android:id="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="424dp"
+        android:layout_marginStart="24dp"/>
+
+    <Button
+        android:layout_height="56dp"
+        android:layout_width="239dp"
+        android:background="#4254BC"
+        android:id="@+id/button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Sign In"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="84dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Forgot Password ?"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="144dp"
+        android:textColor="#A5A5A5"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Create A New Account ?"
+        android:layout_marginTop="660dp"
+        android:layout_marginStart="128dp"
+        android:textColor="#A5A5A5"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
